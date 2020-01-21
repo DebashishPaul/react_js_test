@@ -18,9 +18,16 @@ class TenCounter extends Component {
       count: this.state.count * 0
     });
   }
+
   render() {
+    const mySection = {
+      color: "white",
+      backgroundColor: "DodgerBlue",
+      padding: "10px",
+      fontFamily: "Arial"
+    };
     return (
-      <div>
+      <div style={mySection}>
         <div>Count*= {this.state.count}</div>
         <button onClick={() => this.increment()}>Increment</button>
         <button onClick={() => this.newSet()}>reset</button>
