@@ -6,6 +6,9 @@ import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createStore } from "redux";
 
+//it's based on redux tutorial
+//https://www.youtube.com/watch?v=CVpUuw9XSjY&t=1768s
+
 //action increment
 const increment = () => {
   return {
